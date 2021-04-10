@@ -4,12 +4,9 @@ import { NativeScriptModule } from '@nativescript/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { AuthModule } from './auth/auth.module';
-import { TabsModule } from './tabs/tabs.module';
-
 @NgModule({
   bootstrap: [AppComponent],
-  imports: [NativeScriptModule, AppRoutingModule, AuthModule, TabsModule],
+  imports: [NativeScriptModule, AppRoutingModule],
   declarations: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],
 })

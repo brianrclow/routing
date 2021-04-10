@@ -1,10 +1,11 @@
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { NativeScriptCommonModule } from '@nativescript/angular';
+
 import { TabsRoutingModule } from './tabs-routing.module';
 import { TabsComponent } from './tabs.component';
 
 @NgModule({
-  bootstrap: [TabsComponent],
-  imports: [TabsRoutingModule],
+  imports: [NativeScriptCommonModule, TabsRoutingModule],
   declarations: [TabsComponent],
   schemas: [NO_ERRORS_SCHEMA],
 })
