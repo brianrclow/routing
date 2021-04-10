@@ -1,0 +1,11 @@
+<ActionBar>
+  <Label text="Profile"></Label>
+</ActionBar>
+
+<GridLayout class="page__content" rows="auto,auto,auto,auto,auto" columns="*">
+  <Label class="page__content-icon unl" text="&#xea38;" row="0"></Label>
+  <Button text="About Me" [nsRouterLink]="['../about-me']" row="1"></Button>
+  <Button text="Community" [nsRouterLink]="['../community']" row="2"></Button>
+  <Button text="Change Email" [nsRouterLink]="['../email-settings']" row="3"></Button>
+  <Button text="Change Password" [nsRouterLink]="['../password-settings']" row="4"></Button>
+</GridLayout>

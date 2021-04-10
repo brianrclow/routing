@@ -1,0 +1,17 @@
+<TabView androidTabsPosition="bottom">
+  <StackLayout *tabItem="{ title: 'Programs' }">
+    <StackLayout>
+      <page-router-outlet name="programsTab"></page-router-outlet>
+    </StackLayout>
+  </StackLayout>
+  <StackLayout *tabItem="{ title: 'My Workouts' }">
+    <StackLayout>
+      <page-router-outlet name="myWorkoutsTab"></page-router-outlet>
+    </StackLayout>
+  </StackLayout>
+  <StackLayout *tabItem="{ title: 'Profile' }">
+    <StackLayout>
+      <page-router-outlet name="profileTab"></page-router-outlet>
+    </StackLayout>
+  </StackLayout>
+</TabView>
